@@ -1,0 +1,22 @@
+
+class retail
+{
+  public static void main(String[] args) {
+  
+int  itema=100; int itemb=200; int itemc=400;
+double price;
+
+price=((itema*2)+(itemb*5)+(itemc*4));
+price=(price-(0.01*price));
+price=(price+(0.1*price));
+
+if(price>=2000){
+  price=(price-(0.1*price));
+System.out.println("total price" +price);
+}
+else
+{
+  System.out.println("not applicable for discount");
+}
+}
+}
